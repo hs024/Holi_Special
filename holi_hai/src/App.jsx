@@ -6,6 +6,10 @@ import {
   useNavigate,
   useParams,
 } from "react-router-dom";
+
+
+
+
 import Home from "./components/Home";
 import Congrats from "./components/Congrats";
 const App = () => {
