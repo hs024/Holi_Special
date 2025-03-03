@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Home from "./components/Home";
 import Congrats from "./components/Congrats";
@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="congrats/:sender/:recipient" element={<Congrats />} />
+        <Route path="/congrats/:sender/:recipient" element={<Congrats />} />
       </Routes>
     </Router>
   );
