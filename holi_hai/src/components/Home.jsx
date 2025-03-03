@@ -59,6 +59,13 @@ const Home = () => {
           >
             {link}
           </a>
+          <div>
+            <a href={`https://wa.me/?text=${link}`} target="_blank">
+              <button className="bg-blue-500 text-white p-2 rounded">
+                Send on WhatsApp
+              </button>
+            </a>
+          </div>
         </div>
       )}
     </div>
