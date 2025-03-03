@@ -17,7 +17,7 @@ const Home = () => {
   const generateLink = () => {
     const encodedSender = encodeURIComponent(sender);
     const encodedRecipient = encodeURIComponent(recipient);
-    const generatedLink = `${window.location.origin}/HOLI_SPECIAL/#/congrats/${encodedSender}/${encodedRecipient}`;
+    const generatedLink = `${window.location.origin}/Holi_Special/#/congrats/${encodedSender}/${encodedRecipient}`;
     setLink(generatedLink);
   };
 
